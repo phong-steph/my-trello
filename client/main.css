@@ -1,0 +1,198 @@
+/* CSS declarations go here */
+body {
+  font-family: "Helvetica Neue";
+  background-color: rgb(0, 121, 191) !important;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+#login-buttons {
+  display: block;
+  text-align: center;
+}
+
+#login-sign-in-link {
+  margin-top: 100px;
+  color: #FFF;
+}
+
+#login-name-link {
+  color: #FFF;
+}
+
+#login-dropdown-list {
+  left: 40%;
+}
+
+h1 {
+  color: #FFF !important;
+  text-align: center;
+  margin: 30px auto !important;
+}
+
+h4 {
+  padding: 5px;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.tasks-list {
+  padding: 10px 10px;
+  border-radius: 3px;
+  background: #e2e4e6;
+}
+
+.task-item {
+  background: #FFF;
+  border-radius: 3px;
+  padding: 6px 10px 6px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.task-item:hover {
+  opacity: 0.8;
+}
+
+.task-item .label {
+  margin-right: 5px;
+  font-size: 80%;
+}
+
+.task-item .glyphicon {
+  margin-right: 10px;
+}
+
+.add-task textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.add-task .buttons {
+  text-align: right;
+  /* padding-top: 10px; */
+  padding-right: 10px;
+}
+
+.add-task button {
+  margin-top: 10px;
+  text-align: right;
+  /* margin-left: 10px; */
+}
+
+.gu-mirror {
+  display: none;
+}
+
+.modal-title .glyphicon {
+  line-height: 2;
+}
+
+.modal-title h4 {
+  float: left;
+  margin-top: 0;
+  margin-left: 10px;
+
+}
+
+.modal-title .glyphicon-pencil {
+  display: none;
+}
+
+.modal-title:hover {
+  cursor: pointer;
+}
+
+.modal-title:hover .glyphicon-pencil {
+  display: block;
+  left: 10px;
+}
+
+.modal-title input {
+  float: left;
+  margin-left: 15px;
+  width: 90%;
+  padding: 5px;
+}
+
+.modal-title .buttons {
+  clear: both;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 19px;
+}
+
+.modal-title button {
+  margin-left: 10px;
+}
+
+.modal-description {
+  padding: 0px 15px 15px 15px;
+}
+
+.modal-description h5 {
+  margin-left: 29px;
+}
+
+.modal-description h5:hover {
+  cursor: pointer;
+}
+
+.modal-description textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.modal-description .buttons {
+  clear: both;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.modal-description button {
+  margin-left: 10px;
+}
+
+.modal-label {
+  padding: 0px 15px 0 15px;
+}
+
+.modal-label h5 {
+  line-height: 1.2;
+  margin-left: 30px;
+}
+
+.modal-comments {
+  padding: 0px 15px 15px 15px;
+}
+
+.modal-comments h5 {
+  margin-left: 29px;
+}
+
+.modal-comments textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+.modal-comments .buttons {
+  clear: both;
+  text-align: right;
+  padding-top: 10px;
+}
+
+.modal-comments button {
+  margin-left: 10px;
+}
