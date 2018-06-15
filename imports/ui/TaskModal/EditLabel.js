@@ -29,28 +29,44 @@ export default class EditLabel extends Component {
             onChange={(e) => this.handleChange('bug', e)}
             checked={this.state.bug}
             >
+            <span
+              style={{ color: '#d9534f' }}
+            >
             bug
+            </span>
           </Checkbox>
           <Checkbox
             inline
             onChange={(e) => this.handleChange('feature', e)}
             checked={this.state.feature}
           >
+          <span
+            style={{ color: '#337ab7' }}
+          >
             feature
+          </span>
           </Checkbox>
           <Checkbox
             inline
             onChange={(e) => this.handleChange('enhancement', e)}
             checked={this.state.enhancement}
           >
-            enhancement
+            <span
+              style={{ color: '#5cb85c' }}
+            >
+              enhancement
+            </span>
           </Checkbox>
           <Checkbox
             inline
             onChange={(e) => this.handleChange('design', e)}
             checked={this.state.design}
           >
-            design
+            <span
+              style={{ color: '#f0ad4e' }}
+            >
+              design
+            </span>
           </Checkbox>
         </FormGroup>
       </div>

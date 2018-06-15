@@ -53,7 +53,7 @@ class EditComment extends Component {
           {
             this.props.task.length > 0 && this.props.task[0].comments && this.props.task[0].comments.slice(0).reverse().map((comment, i) =>
               <li key={`comment-${i}`}>
-                { comment.user }: { comment.text }
+                <span>{ comment.user }:</span> { comment.text }
               </li>
             )
           }

@@ -64,8 +64,14 @@ class Tasks extends Component {
               }
               {
                 task.comments && Object.keys(task.comments).length > 0 ?
-                <Glyphicon
-                glyph="glyphicon glyphicon-comment" /> : ''
+                <span>
+                  <Glyphicon
+                    glyph="glyphicon glyphicon-comment"
+                  />
+                  <span className="comments-number">
+                    {Object.keys(task.comments).length}
+                  </span>
+                </span>: ''
               }
             </div>
           )
